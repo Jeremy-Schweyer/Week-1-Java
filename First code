@@ -1,0 +1,11 @@
+package myproject1;
+public class MyClass {
+	public static void main(String[] args) {
+		System.out.print("\tWhen life gives yoy lemons make lemonade\n");
+		
+		System.out.format("%100s","When life gives you lemons make lemonade\n");
+		
+		System.out.format("%-100s","When life gives you lemons make lemonade\n");
+		
+	}
+}
